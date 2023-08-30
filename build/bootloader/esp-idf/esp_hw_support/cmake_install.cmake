@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/lukasz/projects_esp/telemetria/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 endif()
 

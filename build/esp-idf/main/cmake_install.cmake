@@ -1,4 +1,4 @@
-# Install script for directory: /home/lukasz/projects_esp/telemetria/main
+# Install script for directory: /home/lukasz/hydros/Break_test_vehicle_software/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

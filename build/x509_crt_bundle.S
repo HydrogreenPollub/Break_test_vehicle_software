@@ -1,4 +1,4 @@
-/* * Data converted from /home/lukasz/projects_esp/telemetria/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/lukasz/hydros/Break_test_vehicle_software/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

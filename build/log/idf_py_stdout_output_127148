@@ -1,0 +1,17 @@
+[1/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[2/9] Performing build step for 'bootloader'
+[1/1] cd /home/lukasz/hydros/Break_test_vehicle_software/build/bootloader/esp-idf/esptool_py && /home/lukasz/.espressif/python_env/idf5.1_py3.11_env/bin/python /home/lukasz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/lukasz/hydros/Break_test_vehicle_software/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[3/9] No install step for 'bootloader'
+[4/9] Linking C static library esp-idf/main/libmain.a
+[5/9] Completed 'bootloader'
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable BTV.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/lukasz/hydros/Break_test_vehicle_software/build/BTV.bin
+[9/9] cd /home/lukasz/hydros/Break_test_vehicle_software/build/esp-idf/esptool_py && /home/lukasz/.espressif/python_env/idf5.1_py3.11_env/bin/python /home/lukasz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/lukasz/hydros/Break_test_vehicle_software/build/partition_table/partition-table.bin /home/lukasz/hydros/Break_test_vehicle_software/build/BTV.bin
+BTV.bin binary size 0x2b020 bytes. Smallest app partition is 0x100000 bytes. 0xd4fe0 bytes (83%) free.

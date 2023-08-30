@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/home/lukasz/esp/esp-idf/components/bootloader/subproject"
-  "/home/lukasz/projects_esp/telemetria/build/bootloader"
-  "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix"
-  "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix/tmp"
-  "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix/src"
-  "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader"
+  "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix"
+  "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix/tmp"
+  "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix/src"
+  "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/lukasz/projects_esp/telemetria/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/lukasz/hydros/Break_test_vehicle_software/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
